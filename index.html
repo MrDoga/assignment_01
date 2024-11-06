@@ -12,60 +12,60 @@
 
 <body>
 
-    <!-- <header class="global-header max-width-container border">
-        <nav class="global-nav max-width border">
-            <div class="global-nav__logo">
-                logos
+    <header class="global-header max-width-container border">
+        <div class="global-nav__grid border">
+            <div class="global-nav__logo-primary border">
+                <a href="" title="Dubai Municipality Homepage" aria-label="Dubai Municipality Homepage"><img
+                        style="width: 100%;" src="assets\gov_logo.png" class="dda-sub-header__logo"
+                        alt="Dubai Municipality logo for mobile"></a>
             </div>
-            <div class="global-nav__links">
-                links
-            </div>
-        </nav>
-    </header> -->
-
-    <main class="main">
-        <section class="search max-width-container border">
-            <div class="section-grid max-width video-nav ">
-                <div class="global-nav__logo">
-                    <img class="gov_logo01" src="assets\gov_logo.png" alt="government of dubai logo">
-                    <img class="gov_logo02"
+            <div class="global-nav__logo-secondary border">
+                <a href="" title="Dubai Municipality Homepage" aria-label="Dubai Municipality Homepage"><img
+                        style="width: 100%;filter: brightness(100);"
                         src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/dmLogo.png"
-                        alt="dubao Municipality logo">
+                        class="dda-sub-header__logo" alt="Dubai Municipality logo for mobile"></a>
+            </div>
+            <nav class="global-nav__navigation">
+                <div class="global-nav__navigation-links">
+                    <button class="list-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button> <a href="">home</a>
+                    <a href="">about us</a>
+                    <a href="">service</a>
+                    <a href="">easy payment</a>
+                    <a href="">open data</a>
+                    <a href="">contact us</a>
                 </div>
 
-                <div class="global-nav__links">
-                    <div class="global-nav__links-navigation">
-                        <button class="list-btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                                class="bi bi-list" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                            </svg>
-                        </button>
-                        <a href="">home</a>
-                        <a href="">about us</a>
-                        <a href="">service</a>
-                        <a href="">easy payment</a>
-                        <a href="">open data</a>
-                        <a href="">contact us</a>
-                    </div>
-
-                </div>
+            </nav>
+            <nav class="global-nav__navigation-two">
                 <div class="global-nav__search">
-                    <input style="padding-left: 25px;
+                    <input class="global-nav__search-bar" style="padding-left: 25px;
                     background: url('https://static.thenounproject.com/png/101791-200.png') no-repeat left;
                     background-size: 20px;" type="text">
                     <button class="global-nav__search-btns">العربية</button>
                     <button class="global-nav__search-btns">button two</button>
                     <button class="global-nav__search-btns">login</button>
                 </div>
-            </div>
-            <div class="section-grid max-width video-banner ">
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="search max-width-container border" style="position: relative;">
+            <div class="section-grid max-width video-banner">
+                <!-- <h1>Title</h1> -->
                 <h1 class="video-banner__title">
                     Making Dubai more
                 </h1>
                 <span class="video-banner__main-text">livable</span>
+
                 <span class="video-banner__text2">every day</span>
+
                 <div class="video-banner__searchfield-container">
                     <span class="video-banner__mic-logo"><img style="width: 25%;" src="assets\microphone_logo.png"
                             alt=""></span>
@@ -83,42 +83,59 @@
             </video>
         </section>
 
-        <section class="payment max-width-container border">
+        <section class="trending-services max-width-container border">
             <div class="section-grid max-width border">
-                <h2 class="payment__heading"></h2>
-                <p>Inser Text Here</p>
-                <ul class="payment__imp-links">
-                    <li>payments</li>
-                    <li>track request</li>
-                    <li>verification</li>
-                </ul>
-                <input class="payment__search-bar" type="text">
-                <button class="payment__submit-btn">track</button>
+                <div class="trending-services__services-container border">
+                    <h2 class="trending-services__heading border">Trending Services</h2>
+                    <p class="trending-services__overview border">Dubai Municipality provides over
+                        150+ services to individuals, businesses and to other government entities.<br>
+                        Look through our most popular services below to see how we can help you.</p>
+                </div>
+                <div class="trending-services__business-container">
+                    <h4 class="trending-services__business-title"> business
+                    </h4>
+                    <b class="trending-services__business-overview ">From food inspection to advertising permits - let us help.</b>
+                </div>
+                <div class="trending-services__business-options">
+                    <div class="trending-services__business-option">
+                        <p class="trending-services__business-option-info">Release of Imported Food Consignments for Local Market</p>
+                        <a class="trending-services__business-view-more" href="">view more</a>
+                    </div>
+                    <div class="trending-services__business-option">
+                        <p class="trending-services__business-option-info">Release of Imported Food Consignments for Local Market</p>
+                        <a class="trending-services__business-view-more" href="">view more</a>
+                    </div>
+                    <div class="trending-services__business-option">
+                        <p class="trending-services__business-option-info">Release of Imported Food Consignments for Local Market</p>
+                        <a class="trending-services__business-view-more" href="">view more</a>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="learn-more max-width-container border">
             <div class="section-grid max-width border">
-                <h2 class="learn-more__heading"></h2>
-                <p>Insert Text Here</p>
-                <div class="learn-more__card">card 1</div>
-                <div class="learn-more__card">card 2</div>
-                <div class="learn-more__card">card 3</div>
-                <div class="learn-more__card">card 4</div>
-                <div class="learn-more__card">card 5</div>
-                <button class="learn-more__button"> view more</button>
+                section 3
             </div>
             </div>
 
         </section>
 
-        <section class="quick-links max-width-container border"></section>
     </main>
     <footer class="global-footer max-width-container border">
         <div class="global-footer__grid max-width border">
-
-            <p class="global-footer__copyright border"> footer copyright</p>
-            <ul class="global-footer__links border"> footer links</ul>
+            <ul class="global-footer__links border">global footer links</ul>
+            <p class="global-footer__copyright-primary border">
+                Copyright © 2024 Dubai Municipality, all rights reserved.
+                <br>
+                This site is maintained by the Dubai Municipality.
+            </p>
+            <p class="global-footer__copyright-secondary border">
+                The site is best viewed using Microsoft Edge, Mozilla Firefox, Safari and Chrome.
+                <br>
+                Page last modified: <span id="dynamicDate">
+                    06 November 2024 </span>
+            </p>
         </div>
     </footer>
 
