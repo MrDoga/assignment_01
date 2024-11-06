@@ -1,9 +1,16 @@
 
+# Dubai Municipality web portal
 
-# Municipality web portal
+This repository contains the front-end design and functionality of the portal's landing page which serves as the first point of interaction for users visiting the Dubai Municipality's online services and resources.
 
-It is a Municipality web application which is used for logging complaints, payment for services, tracking request, and document verification.
+## Project Description
 
+This repository consist of  landing page for the Dubai Municipality Web Portal, designed with the aim of providing easy access to the Municipality's online services, information, and resources.
+
+## Prerequisites
+1. HTML  (Structuring webpage)
+2. Git (for version control)
+3. CSS (Styling and layout (includes Flexbox and Grid))
 
 
 ## Installation
@@ -31,7 +38,8 @@ After cloning the repo  open assignment_01 folder and double click the index.htm
 
 ## Languages used
 
-1. Css
-2. HTML5
+1. HTML  (Structuring webpage)
+2. Git (for version control)
+3. CSS (Styling and layout (includes Flexbox and Grid))
  
 
