@@ -40,8 +40,20 @@
 
 .global-nav{
     display: grid;
-    grid-template-columns: min-content 1fr;
-    grid-template-areas: "links";
+    grid-template-columns: repeat(11,1fr);
+    gap: 2em;
+}
+
+.global-nav__logo{
+    /* grid-area: logo; */
+    grid-column: 1/11;
+}
+
+.global-nav__links{
+    /* grid-area: links */
+    grid-row: 2;
+    grid-column: 1/11;
+    
 }
 
 /* FOOTER LAYOUT */
@@ -53,4 +65,10 @@
 .global-footer__grid{
     display: grid;
     gap: 1em;
+}
+
+
+
+.nav-links{
+    display: flex;
 }
