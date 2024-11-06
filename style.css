@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root {
     --btn-color: #2D2D2A
 }
@@ -58,12 +59,12 @@
     align-items: center;
 }
 
-.gov_logo01 {   
+.gov_logo01 {
     width: 15%;
     /* filter: brightness(0) invert(1); */
 }
 
-.gov_logo02{
+.gov_logo02 {
     width: 15%;
     height: 54%;
     filter: brightness(0) invert(1);
@@ -147,13 +148,13 @@
     text-align: center;
 }
 
-.list-btn{
+.list-btn {
     background-color: transparent;
     border: none;
     filter: invert(0);
 }
 
-.global-nav__links-navigation{
+.global-nav__links-navigation {
     display: flex;
     gap: 1em;
     display: flex;
@@ -162,17 +163,38 @@
     align-items: center;
 }
 
-.global-nav__links-navigation > * {
+.global-nav__search {
+    grid-row: 2;
+    grid-column: 8/13;
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-nav__search-btns{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    width: unset;
+    padding: 0 16px;
+    border-radius: 20px;
+    background: #ffffff22;
+    color: #fff;
+    border: 1px;
+}
+
+
+.global-nav__links-navigation>* {
     text-decoration: none;
     text-transform: capitalize;
     color: #fff;
     font-weight: 600;
 }
 
-.global-nav__url::after{
+.global-nav__url::after {
     text-decoration: underline;
 }
-.global-nav__links-navigation:has(a)::after{
+
+.global-nav__links-navigation:has(a)::after {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -183,8 +205,8 @@
     grid-column: 1/7;
 }
 
-.video-banner__searchfield-container{
-    grid-column: 5/9;
+.video-banner__searchfield-container {
+    grid-column: 4/10;
     grid-row: 7;
     width: 100%;
     border-radius: 8px;
@@ -194,10 +216,11 @@
     height: 3em;
 }
 
-.video-banner__search-field:focus-visible{
+.video-banner__search-field:focus-visible {
     outline: none;
 }
-.video-banner__mic-logo{
+
+.video-banner__mic-logo {
     width: 6em;
     padding: 0;
     margin: 0;
@@ -205,6 +228,4 @@
     align-content: center;
 }
 
-.video-banner__search-logo{
-
-}
+.video-banner__search-logo {}
